@@ -1,0 +1,65 @@
+{
+  "workoutProgress": {
+    "currentWeek": {
+      "totalWorkouts": 4,
+      "completedWorkouts": 2,
+      "workouts": [
+        {
+          "id": "1",
+          "date": "2024-03-18",
+          "type": "Strength",
+          "duration": 45,
+          "caloriesBurned": 320,
+          "completed": true
+        },
+        {
+          "id": "2",
+          "date": "2024-03-19",
+          "type": "Cardio",
+          "duration": 30,
+          "caloriesBurned": 280,
+          "completed": true
+        },
+        {
+          "id": "3",
+          "date": "2024-03-21",
+          "type": "Yoga",
+          "duration": 45,
+          "caloriesBurned": 250,
+          "completed": false
+        },
+        {
+          "id": "4",
+          "date": "2024-03-22",
+          "type": "HIIT",
+          "duration": 35,
+          "caloriesBurned": 400,
+          "completed": false
+        }
+      ]
+    }
+  },
+  "dailyGoals": {
+    "steps": {
+      "target": 10000,
+      "current": 7500,
+      "percentage": 75
+    },
+    "water": {
+      "target": 8,
+      "current": 5,
+      "percentage": 62.5
+    },
+    "calories": {
+      "target": 2500,
+      "current": 1800,
+      "percentage": 72
+    },
+    "activeMinutes": {
+      "target": 60,
+      "current": 45,
+      "percentage": 75
+    },
+    "lastUpdated": "2024-03-19T15:30:00Z"
+  }
+}
