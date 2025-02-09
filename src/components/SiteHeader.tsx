@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./ModeToggle";
 import { motion } from "framer-motion";
+import { Plus } from "lucide-react";
 
 export function SiteHeader() {
   return (
@@ -14,7 +15,7 @@ export function SiteHeader() {
           </div>
 
           <div className="flex items-center gap-4">
-            <nav className="hidden md:flex items-center gap-4">
+            <nav className="flex items-center gap-4">
               <motion.div
                 whileHover={{
                   scale: 1.05,
@@ -25,7 +26,10 @@ export function SiteHeader() {
                   transition: { duration: 0.1 },
                 }}
               >
-                <Button>Start Workout</Button>
+                <Button className="md:flex hidden">Start Workout</Button>
+                <Button size="icon" className="md:hidden flex">
+                  <Plus className="h-4 w-4" />
+                </Button>
               </motion.div>
             </nav>
 
